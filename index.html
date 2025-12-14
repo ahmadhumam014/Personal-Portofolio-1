@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portofolio</title>
+</head>
+<body>
+    <!--Navigation Menu-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Ahmad</span>
+            </div>
+            <div class="links">
+                <div class="link"><a href="#home">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#services">Services</a></div>
+                <div class="link"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image">
+                <img src="main.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1>Hey I'm<span> Humam</span></h1>
+            <div class="typewritter">I'm a <span class="typewritter-text"></span><label for="">|</label></div>
+            <p>Creative and detail-oriented Front-End Web Developer with expertise in building responsive, user-friendly websites and applications. Skilled in translating design concepts into interactive digital experiences using modern web technologies. Adept at optimizing performance, ensuring accessibility, and collaborating with cross-functional teams to deliver high-quality solutions.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="btn">
+                <button>Hire Me</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section Start-->
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="main.jpg" alt="" />
+                </div>
+                <div class="right">
+                    <div class="topic">Designing is My Passion</div>
+                    <p>Design is not just what I do, its who I am. Every idea I bring to life is fueled by creativity, curiosity, and a deep love for turning imagination into reality. For me, designing is more than a skill its a language of expression, a way to inspire, and a journey of endless possibilities. I believe that great design has the power to connect hearts, spark emotions, and transform visions into experiences. Passion drives my craft, and through design, I strive to leave a mark that is both meaningful and beautiful.</p>
+                    <div class="button">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--My Skill Section Start-->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">
+                        Skills Reflects Our Knowledge
+                    </div>
+                    <p>Skills are the living mirror of our knowledge. They transform what we learn into what we can do, turning ideas into action and theory into practice. Every skill mastered is proof of dedication, growth, and the wisdom we carry within. Knowledge gives us the foundation, but skills give us the wings to soar showing the world not just what we know, but how we create, innovate, and inspire through it.</p>
+                    <div class="experience">
+                        <div class="num">10</div>
+                        <div class="exp">
+                            Years Of Experience
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">HTML</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">CSS</div>
+                        <div class="per">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">JavScript</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">PHP</div>
+                        <div class="per">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--My Services Section Starts-->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Design</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Marketing</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">Icon Design</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Photography</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">Apps Development</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me Section Starts-->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title">
+                <span>Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="topic">Have Any Project ?</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="button">
+                    <button>Let's Start Chat</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+        <div class="text">
+            <span>Created By<a href="#"> Ahmad Humam </a>&#169;2025 All Rights Reserved</span>
+        </div>
+    </footer>
+    <script>
+        function hamburg(){
+            navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+
+        function cancel(){
+            navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+
+        // Typewritter effect //
+
+        const texts = [
+            "WEB DEVELOPER",
+            "DESIGNER",
+            "YOUTUBER"
+    ]
+    let speed = 100;
+    const textElements = document.querySelector(".typewritter-text")
+
+    let textIndex = 0;
+    let characterIndex = 0;
+
+    function typeWritter(){
+        if (characterIndex < texts[textIndex].length){
+            textElements.innerHTML += texts[textIndex].charAt(characterIndex);
+            characterIndex++;
+            setTimeout(typeWritter, speed);
+        }
+        else {
+            setTimeout(eraseText, 1000)
+        }
+    }
+
+    function eraseText(){
+        if (textElements.innerHTML.length > 0){
+            textElements.innerHTML = textElements.innerHTML.slice(0,-1);
+            setTimeout(eraseText, 50)
+        }
+        else {
+            textIndex = (textIndex + 1) % texts.length;
+            characterIndex = 0;
+            setTimeout(typeWritter, 500)
+        }
+    }
+
+    window.onload = typeWritter
+</script>
+</body>
+</html>
